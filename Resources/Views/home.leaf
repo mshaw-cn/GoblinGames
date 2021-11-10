@@ -1,0 +1,6 @@
+#extend("index"):
+    #export("body"):
+        <h2>Dedicated to the Art of War</h2>
+        <p>Join us for the 2022 Season of the Goblin Games</p>
+    #endexport
+#endextend

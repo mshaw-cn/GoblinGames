@@ -3,35 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>#(title)</title>
+  <title>Goblin Games</title>
   <link rel="stylesheet" href="/Stylesheets/main.css">
 </head>
 
 <body>
   <header>
-    <section>
+    <div>
       <h1>
-        <a>Goblin <br> Games</a>
+        <a href="/">Goblin <br> Games</a>
       </h1>
-    </section>
+    </div>
 
     <h3>2022 Season</h3>
 
     <nav>
-      Home
+      <a href="/">Home</a> &middot;
+      <a href="/generals">Generals</a>
     </nav>
   </header>
 
-  <section>
-    <h1>#(title)</h1>
-    <p>#(body)</p>
-  </section>
+  <div>
+    #import("body")
+  </div>
 
   <footer>
     <small>&copy; Goblin Games</small>
 
     <nav>
-      Home
+      <a href="/">Home</a>
+      <a href="/generals">Generals</a>
     </nav>
   </footer>
 </body>
