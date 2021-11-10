@@ -2,11 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>#(title)</title>
+  <link rel="stylesheet" href="/Stylesheets/main.css">
 </head>
 
 <body>
-  <h1>#(title)</h1>
+  <header>
+    <section>
+      <h1>
+        <a>Goblin <br> Games</a>
+      </h1>
+    </section>
+
+    <h3>2022 Season</h3>
+
+    <nav>
+      Home
+    </nav>
+  </header>
+
+  <section>
+    <h1>#(title)</h1>
+    <p>#(body)</p>
+  </section>
+
+  <footer>
+    <small>&copy; Goblin Games</small>
+
+    <nav>
+      Home
+    </nav>
+  </footer>
 </body>
 </html>
