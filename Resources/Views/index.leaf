@@ -5,34 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Goblin Games</title>
   <link rel="stylesheet" href="/Stylesheets/main.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
 </head>
 
 <body>
-  <header>
-    <div>
-      <h1>
+  <header class="primary-header container group">
+    <div class="container">
+      <h1 class="logo">
         <a href="/">Goblin <br> Games</a>
       </h1>
     </div>
 
-    <h3>2022 Season</h3>
+    <h3 class="tagline">2022 Season</h3>
 
-    <nav>
+    <nav class="nav primary-nav">
       <a href="/">Home</a> &middot;
-      <a href="/generals">Generals</a>
+      <a href="/generals">Generals</a> &middot;
+      <a href="/">Schedule</a> &middot;
+      <a href="/">Batreps</a>
     </nav>
   </header>
 
   <div>
-    #import("body")
+        #import("body")
   </div>
 
-  <footer>
+  <footer class="primary-footer container group">
     <small>&copy; Goblin Games</small>
 
-    <nav>
-      <a href="/">Home</a>
-      <a href="/generals">Generals</a>
+    <nav class="nav">
+      <a href="/">Home</a> &middot;
+      <a href="/generals">Generals</a> &middot;
+      <a href="/">Schedule</a> &middot;
+      <a href="/">Batreps</a>
     </nav>
   </footer>
 </body>

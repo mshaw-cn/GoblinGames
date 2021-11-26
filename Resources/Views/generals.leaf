@@ -1,6 +1,10 @@
 #extend("index"):
     #export("body"):
-        <h1>Meet the Generals</h1>
-        <p>The Master of Lore <br>The Blighttown Bastard <br>The Goblin Tamer <br>The Lord of Bones <br>The Furry F*cker</p>
+    <section class="row">
+        <div class="lead container">
+            <h1>Meet the Generals</h1>
+            <p>The Master of Lore <br>The Blighttown Bastard <br>The Goblin Tamer <br>The Lord of Bones <br>The Furry F*cker</p>
+        </div>
+    </section>
     #endexport
 #endextend

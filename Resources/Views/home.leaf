@@ -1,6 +1,44 @@
 #extend("index"):
     #export("body"):
-        <h2>Dedicated to the Art of War</h2>
-        <p>Join us for the 2022 Season of the Goblin Games</p>
+        <!-- hero -->
+        <section>
+            <div class="hero container">
+                <h2>Hero Section</h2>
+                <p>Hero paragraph</p>
+                <a class="btn btn-alt" href="/"> <!-- TODO Contact Link -->
+                    Contact Us
+                </a>
+            </div>
+        </section>
+
+        <!-- remove white space from each section so they are inline -->
+        <!-- generals -->
+        <section class="row">
+            <div class="grid">
+                <section class="teaser col-1-3">
+                    <a href="/generals">
+                        <h5>Generals</h5>
+                        <h3>World-Class Generals</h3>
+                    </a>
+                    <p>Joining us from all around the world are over four battle hardened generals, here to achieve victory no matter the cost.</p>
+                </section><!--
+                schedule
+                --><section class="teaser col-1-3">
+                    <a href="/"> <!-- TODO Schedule link -->
+                        <h5>Schedule</h5>
+                        <h3>Multiple Inspiring Days</h3>
+                    </a>
+                    <p>Enjoy at least four inspiring and action-packed days of miniatures, dice, scenery, food, and rivalry.</p>
+                </section><!--
+                    batreps
+                --><section class="teaser col-1-3">
+                    <a href="/"> <!-- TODO Batrep link -->
+                        <h5>Batreps</h5>
+                        <h3>Historical Updates</h3>
+                    </a>
+                    <p>Follow your favorite army, battlefield, or general with battle reports from industry leading battle-side reporters.</p>
+                </section>
+            </div>
+        </section>
     #endexport
 #endextend
